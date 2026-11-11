@@ -8,7 +8,7 @@ export function actualizarTareas(
     if (tarea.id === id) {
       return {
         ...tarea,
-        isCompleted: !tarea.isCompleted,
+        isCompleted: tarea.isCompleted,
       };
     }
 
